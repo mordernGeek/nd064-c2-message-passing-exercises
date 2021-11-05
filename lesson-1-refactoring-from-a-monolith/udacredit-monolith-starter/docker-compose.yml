@@ -12,6 +12,7 @@ services:
     ports:
       - "5000:5000"
 
+  
   customers_api:
     build: customers_api
     command: ["flask", "run", "--host=0.0.0.0"]
